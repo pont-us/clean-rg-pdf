@@ -36,6 +36,11 @@ or impossible to fully undo the damage: links in the original PDF are
 probably gone for good. clean-rg-pdf should at least make the document
 *look* like the original, even if it doesn't work quite as well.
 
+Usage
+-----
+
+    clean-rg-pdf.py <input-file> <output-file>
+
 Details
 -------
 
@@ -44,7 +49,7 @@ done by Patrick Maupin's pdfrw library. clean-rg-pdf depends on some
 fairly specific internal formatting to find the underlinings, so will
 probably stop working if ResearchGate change their PDF munging system.
 It's only been tested with a small number of documents, so may even
-fail on some current documents.
+fail on some current PDFs.
 
 Copyright and license
 ---------------------
